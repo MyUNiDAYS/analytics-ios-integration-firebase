@@ -12,7 +12,7 @@
       },
       {
         "package": "Segment",
-        "repositoryURL": "https://github.com/segmentio/analytics-ios.git",
+        "repositoryURL": "https://github.com/Reedyuk/analytics-ios.git",
         "state": {
           "branch": null,
           "revision": "187faa897c826fe0954124da116db3318242f7c3",
