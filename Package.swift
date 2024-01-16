@@ -6,8 +6,8 @@ let package = Package(
     platforms: [.iOS(.v11)],
     products: [.library(name: "SegmentFirebase", targets: ["SegmentFirebase"])],
     dependencies: [
-      .package(name: "Segment", url: "https://github.com/Reedyuk/analytics-ios.git", from: "4.1.6"),
-      .package(name: "Firebase", url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.6.0"),
+      .package(name: "Segment", path: "/Users/jacobhughes/Development/unidays/iOS/analytics-ios"),
+      .package(name: "Firebase", url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.19.0"),
     ],
     targets: [
         .target(
