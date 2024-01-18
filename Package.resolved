@@ -12,11 +12,11 @@
       },
       {
         "package": "Segment",
-        "repositoryURL": "https://github.com/segmentio/analytics-ios.git",
+        "repositoryURL": "https://github.com/MyUNiDAYS/analytics-ios.git",
         "state": {
           "branch": null,
-          "revision": "78423aaae2e48e32a07246850f37c76f3d34cb84",
-          "version": "4.1.8"
+          "revision": "508ec32e151eae684240a2ed908b99d0a158c687",
+          "version": null
         }
       },
       {
