@@ -12,11 +12,11 @@
       },
       {
         "package": "Segment",
-        "repositoryURL": "https://github.com/MyUNiDAYS/analytics-ios",
+        "repositoryURL": "https://github.com/segmentio/analytics-ios.git",
         "state": {
-          "branch": "master",
-          "revision": "71f2560c07d09e9ed45aca08e3743b8588357cb4",
-          "version": null
+          "branch": null,
+          "revision": "78423aaae2e48e32a07246850f37c76f3d34cb84",
+          "version": "4.1.8"
         }
       },
       {
@@ -33,8 +33,8 @@
         "repositoryURL": "https://github.com/firebase/firebase-ios-sdk.git",
         "state": {
           "branch": null,
-          "revision": "c60c958e707c50a9cf8bcb7cfd7d51c566d726c5",
-          "version": "10.19.1"
+          "revision": "d9bcd141c3e4ad48a9500e6faeebb073f43cbcbd",
+          "version": "10.19.0"
         }
       },
       {
