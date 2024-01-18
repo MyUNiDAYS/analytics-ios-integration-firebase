@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/segment'
 
   s.swift_version = '4.0'
-  s.platform     = :ios, '11.0'
+  s.platform     = :ios, '12.0'
   s.requires_arc = true
 
   s.source_files = 'Segment-Firebase/Classes/**/*'
@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency 'Analytics'
-  s.dependency 'Firebase', '~> 10.6.0'
-  s.dependency 'Firebase/Core', '~> 10.6.0'
-  s.dependency 'FirebaseAnalytics','~> 10.6.0'
+  s.dependency 'Firebase', '~> 10.19.0'
+  s.dependency 'Firebase/Core', '~> 10.19.0'
+  s.dependency 'FirebaseAnalytics','~> 10.19.0'
 
   s.subspec 'Core' do |core|
     #For users who only want the core Firebase package
