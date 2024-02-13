@@ -14,7 +14,7 @@ let package = Package(
         .package(
             name: "Firebase",
             url: "https://github.com/firebase/firebase-ios-sdk",
-            .exact("10.19.0")
+            .exact("10.2.0")
         ),
     ],
     targets: [
