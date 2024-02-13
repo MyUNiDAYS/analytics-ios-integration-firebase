@@ -8,13 +8,13 @@ let package = Package(
     dependencies: [
         .package(
             name: "Segment",
-            url: "https://github.com/MyUNiDAYS/analytics-ios.git",
-            .revision("508ec32e151eae684240a2ed908b99d0a158c687")
+            url: "https://github.com/MyUNiDAYS/analytics-ios",
+            .exact("4.1.6-unidays-tag-1")
         ),
         .package(
             name: "Firebase",
-            url: "https://github.com/firebase/firebase-ios-sdk.git",
-                .exact("10.19.0")
+            url: "https://github.com/firebase/firebase-ios-sdk",
+            .exact("10.19.0")
         ),
     ],
     targets: [
