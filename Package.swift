@@ -9,12 +9,12 @@ let package = Package(
         .package(
             name: "Segment",
             url: "https://github.com/MyUNiDAYS/analytics-ios",
-            .exact("4.1.6-unidays-tag-1")
+            .revision("508ec32e151eae684240a2ed908b99d0a158c687")
         ),
         .package(
             name: "Firebase",
             url: "https://github.com/firebase/firebase-ios-sdk",
-            .exact("10.2.0")
+            .exact("10.19.0")
         ),
     ],
     targets: [
