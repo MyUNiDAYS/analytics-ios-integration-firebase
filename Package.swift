@@ -9,6 +9,7 @@ let package = Package(
         .package(
             name: "Segment",
             url: "https://github.com/MyUNiDAYS/analytics-ios",
+            // Use hash instead of branch
             .revision("508ec32e151eae684240a2ed908b99d0a158c687")
         ),
         .package(
