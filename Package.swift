@@ -8,8 +8,8 @@ let package = Package(
     dependencies: [
       .package(
         name: "Segment",
-        url: "https://github.com/MyUNiDAYS/analytics-ios.git",
-        .revision("508ec32e151eae684240a2ed908b99d0a158c687")
+        url: "https://github.com/segmentio/analytics-ios.git",
+        .exact("4.1.8")
       ),
       .package(
         name: "Firebase",
