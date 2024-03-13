@@ -2,7 +2,13 @@
 
 #import <FirebaseCore/FirebaseCore.h>
 #import <FirebaseAnalytics/FirebaseAnalytics.h>
-#import <Segment/SEGAnalyticsUtils.h>
+
+#if defined(__has_include) && __has_include(<Analytics/SEGAnalytics.h>)
+#import <Analytics/SEGAnalyticsUtils.h>
+#else
+@import Segment;
+#endif
+
 
 @implementation SEGFirebaseIntegration
 
