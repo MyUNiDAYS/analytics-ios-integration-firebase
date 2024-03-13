@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "Segment",
+        "repositoryURL": "https://github.com/MyUNiDAYS/analytics-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "508ec32e151eae684240a2ed908b99d0a158c687",
+          "version": null
+        }
+      },
+      {
         "package": "AppCheck",
         "repositoryURL": "https://github.com/google/app-check.git",
         "state": {

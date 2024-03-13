@@ -9,7 +9,7 @@ let package = Package(
       .package(
         name: "Segment",
         url: "https://github.com/MyUNiDAYS/analytics-ios.git",
-        .revision("f73757a212d1c7f85b5e1ed3356f7011418302e3")
+        .revision("508ec32e151eae684240a2ed908b99d0a158c687")
       ),
       .package(
         name: "Firebase",
