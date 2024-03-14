@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "SegmentFirebase",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v11)],
     products: [.library(name: "SegmentFirebase", targets: ["SegmentFirebase"])],
     dependencies: [
       .package(
