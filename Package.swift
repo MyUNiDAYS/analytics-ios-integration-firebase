@@ -6,17 +6,16 @@ let package = Package(
     platforms: [.iOS(.v12)],
     products: [.library(name: "SegmentFirebase", targets: ["SegmentFirebase"])],
     dependencies: [
-        .package(
-            name: "Segment",
-            url: "https://github.com/MyUNiDAYS/analytics-ios",
-            // Use hash instead of branch
-            .revision("508ec32e151eae684240a2ed908b99d0a158c687")
-        ),
-        .package(
-            name: "Firebase",
-            url: "https://github.com/firebase/firebase-ios-sdk",
-            .exact("10.2.0")
-        ),
+      .package(
+        name: "Segment",
+        url: "https://github.com/MyUNiDAYS/analytics-ios.git",
+        .revision("76e4d86780e56c566c0c99a05841b4a4c8905f72")
+      ),
+      .package(
+        name: "Firebase",
+        url: "https://github.com/firebase/firebase-ios-sdk.git",
+        from: "10.21.0"
+      ),
     ],
     targets: [
         .target(
